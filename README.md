@@ -126,7 +126,7 @@ endmodule
 
 ## UPDOWN PROGRAM
 ```
- module Counter(clk,rst,updown,out);
+module Counter(clk,rst,updown,out);
 input updown,clk,rst;
 output reg [3:0]out;
 always@(posedge clk)
